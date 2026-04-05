@@ -10,6 +10,10 @@ fn main() {
     let namespace = parsed["namespace"]
         .as_str()
         .expect("Missing 'namespace' in runlicense.json");
+    let product_name = parsed["product_name"]
+        .as_str()
+        .expect("Missing 'product_name' in runlicense.json");
 
     println!("cargo:rustc-env=RUNLICENSE_NAMESPACE={namespace}");
+    println!("cargo:rustc-env=RUNLICENSE_PRODUCT_NAME={product_name}");
 }
