@@ -1,0 +1,7 @@
+{
+  "product_id": "",
+  "product_name": "",
+  "language": "rust_to_webassembly",
+  "namespace": "",
+  "sdk_url": "https://github.com/runlicense/sdk-webassembly-rust"
+}
